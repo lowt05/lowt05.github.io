@@ -55,7 +55,7 @@ body {
         font-style:italic;
        }
 
-.center {
+.centerBlock {
         display: flex;
         justify-content: center;
  /*       align-items: center;
