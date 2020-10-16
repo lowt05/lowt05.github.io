@@ -117,7 +117,7 @@ a:hover {
    img{
         max-width: auto;
         max-height: 200px;
-        min-height: 200px;
+        /*min-height: 200px;*/
         display: block; 
         padding: 5px;
      }
