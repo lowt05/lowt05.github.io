@@ -21,7 +21,7 @@
            }
           
 body {
- 	word-wrap: break-word;
+ 	      word-wrap: break-word;
         background-color: rgba(241, 241, 228, 0.863);
         font-family: Verdana, Helvetica, Arial, sans-serif;
         font-size: 85%;
