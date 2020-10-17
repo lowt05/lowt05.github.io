@@ -22,7 +22,7 @@
           
 body {
   word-wrap: break-word;
-  background-color: rgba(242, 242, 242, 0.863);
+  /* background-color: rgba(242, 242, 242, 0.863);*/
   font-family: Verdana, Helvetica, Arial, sans-serif;
   font-size: 85%;
   margin-left: 150px;
