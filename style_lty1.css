@@ -95,7 +95,6 @@ a:hover {
 #container-1{
         font-size: 15px;
         text-align: left;
-        background-color: rgb(255,255,255);
         display: flex;
         justify-content: center;
         top: 0;
@@ -137,6 +136,7 @@ a:hover {
 }
 
 figure {
+    background-color: rgb(255,255,255);
     display: inline-block;
     border: 1px dotted gray;
     margin: 10px; 
