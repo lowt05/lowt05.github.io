@@ -95,7 +95,7 @@ a:hover {
 #container-1{
         font-size: 15px;
         text-align: left;
-        background-color:rgb(194, 194, 163);
+        background-color: rgba(242, 242, 242, 0.863);
         display: flex;
         justify-content: center;
         top: 0;
