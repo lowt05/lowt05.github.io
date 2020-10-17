@@ -100,6 +100,7 @@ a:hover {
         top: 0;
         position: sticky; 
         padding: 2px;
+        background-color: rgb(173, 173, 133);
         }
 
 
@@ -148,4 +149,33 @@ figure img {
 figure figcaption {
     /*border: 1px dotted blue;*/
     text-align: center;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: red;
 }
