@@ -22,7 +22,7 @@
           
 body {
   word-wrap: break-word;
-  background-color: rgba(241, 241, 228, 0.863);
+  background-color: rgba(242, 242, 242, 0.863);
   font-family: Verdana, Helvetica, Arial, sans-serif;
   font-size: 85%;
   margin-left: 150px;
@@ -31,11 +31,11 @@ body {
             
 .p1 {
   css font-family:MyCustomFont;
-  color: rgb(61, 61, 41);
+  /*color: rgb(61, 61, 41);*/
   /*opacity: 1;*/
   color: black;
   font-size:15px;
-  background-color:rgb(214, 214, 194);
+  background-color: rgba(242, 242, 242, 0.863);
   padding: 25px;
 }         
 
@@ -53,7 +53,7 @@ body {
 }
 
 .centerBlock {
-  background-color: rgba(241, 241, 228, 0.863);
+  background-color: rgba(242, 242, 242, 0.863);
   display: flex;
   justify-content: center;
   align-items: center;
