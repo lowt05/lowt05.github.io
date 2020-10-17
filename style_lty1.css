@@ -35,7 +35,7 @@ body {
   /*opacity: 1;*/
   color: black;
   font-size:15px;
-  background-color: rgba(191,191,191,0.863);
+  background-color: rgb(230,230,230);
   padding: 25px;
 }         
 
@@ -53,7 +53,7 @@ body {
 }
 
 .centerBlock {
-  background-color: rgba(191,191,191, 0.863);
+  background-color: rgb(230,230,230);
   display: flex;
   justify-content: center;
   align-items: center;
