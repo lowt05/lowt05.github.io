@@ -37,7 +37,7 @@ body {
         color: black;
         font-size:15px;
         background-color:rgb(214, 214, 194);
-        padding: 2px;
+        padding: 35px;
 
  }         
 
@@ -124,9 +124,9 @@ a:hover {
       }  
 
    img{
-        max-width: auto;
         max-height: 200px;
-        /*min-height: 200px;*/
+        min-height: 100px;  
+        max-width: auto;
         display: block; 
         padding: 5px;
      }
