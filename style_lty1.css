@@ -11,7 +11,6 @@
 .headerclass2 {
 	    font-size: 25px;
         font-weight:normal;
-        margin-left: 50px;
               }
           
 .bodyclass1{
@@ -26,7 +25,8 @@ body {
         background-color: hsla(60, 19%, 85%,0.65);
         font-family: Verdana, Helvetica, Arial, sans-serif;
         font-size: 85%;
-        margin-left: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
                              
      }
             
