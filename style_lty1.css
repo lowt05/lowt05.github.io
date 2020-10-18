@@ -121,14 +121,22 @@ a:hover {
         margin:1%;     
       }  
 
-   img{
+img{
         max-height: 175px;
         min-height: auto;  
         max-width: auto;
         display: block; 
         padding: 5px;
-     }
-   
+    }
+
+.imageClassCover{
+  width: auto;
+  display: block;  
+}    
+
+
+
+
 .iR{
   float:right;
 }
