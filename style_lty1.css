@@ -121,9 +121,10 @@ img{
     }
 
 .imageCover{
-  width: auto;
-  height:auto;
+  max-width: auto;
+  max-height:auto;
   position: relative;
+  display: block;  
 /*    max-width: 800px; Maximum width */
   margin: 0 auto; /* Center it */
   }    
