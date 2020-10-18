@@ -122,19 +122,21 @@ a:hover {
       }  
 
 img{
-        max-height: 175px;
-        min-height: auto;  
-        max-width: auto;
-        display: block; 
-        padding: 5px;
+   padding: 5px;
     }
 
 .imgCover{
-  width: auto;
+  width: 99%;
+  height:auto;
   display: block;  
 }    
 
-
+.imgContent{
+  max-height: 175px;
+  min-height: auto;  
+  max-width: auto;
+  display: block;  
+}
 
 
 .iR{
