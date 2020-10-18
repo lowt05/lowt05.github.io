@@ -143,8 +143,8 @@ img{
   }  
 
 .imageContent{
-    max-height: 200px;
-    min-height: 20px;  
+    max-height: 180px;
+    min-height: 130px;  
     width: auto;
     display: block;  
     padding: 10px;
