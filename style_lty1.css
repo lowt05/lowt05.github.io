@@ -68,7 +68,7 @@ h1 {
         text-align: left;
    }    
                                                                                              
-h2 {
+header2 {
 	color:White; 
         font-family:Verdana; 
         text-align: left;
@@ -94,44 +94,44 @@ a:hover {
 
 
 #container-1{
-        font-size: 15px;
-        text-align: left;
-        display: flex;
-        justify-content: center;
-        top: 0;
-        position: sticky; 
-        padding: 2px;
-        background-color: rgb(184,184,148);
-        }
+  font-size: 15px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  top: 0;
+  position: sticky; 
+  padding: 2px;
+  background-color: rgb(184,184,148);
+  }
 
 
-      #container-1 div {
-        width: auto;
-        display: flex;
-      }
+#container-1 div {
+  width: auto;
+  display: flex;
+  }
       
-      #navigation-1 {
-        width:auto;
-        margin:1%;    
-      }
+#navigation-1 {
+  width:auto;
+  margin:1%;    
+  }
       
-      #content-1{
-        float:left;
-        width:31.3%;
-        margin:1%;     
-      }  
+#content-1{
+  float:left;
+  width:31.3%;
+  margin:1%;     
+  }  
 
 img{
     }
 
-  .imageCover{
+#imageCover{
     width: 100%;
     height:auto;
     display: block;  
   }    
 
 
-  .imageContent{
+#imageContent{
     max-height: 175px;
     min-height: auto;  
     max-width: auto;
@@ -139,7 +139,7 @@ img{
     padding: 10px;
   }
 
-  .imageRight{
+#imageRight{
     float:right;
     max-height: 175px;
     min-height: auto;  
@@ -148,7 +148,7 @@ img{
     padding: 10px;
   }
 
-  .imageLeft{
+#imageLeft{
     float:left;
     margin-right: 10px;
     max-height: 175px;
