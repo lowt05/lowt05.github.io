@@ -78,12 +78,13 @@ body {
                                                                                                               
 a:hover {
 	background-color: white;
-        color:  blue;
+  color:  blue;
+  text-decoration: none;
         }
           
 
 .addBorder1 {
-        border:solid 1px grey;
+  border:solid 1px grey;
             }            
              
 .addBorder2 {
