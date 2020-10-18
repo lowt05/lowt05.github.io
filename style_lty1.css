@@ -21,14 +21,14 @@
    }
                             
 .headerclass1 {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
   font-size: 40px;
-  color: whitesmoke;
   font-weight:normal;
 }
 
 .headerclass2 {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
   font-size: 20px;
-  color: whitesmoke;
   font-weight:normal;
 }
 
@@ -40,10 +40,9 @@
 }
           
 body {
-  font-family:MyCustomFont;
   word-wrap: break-word;
   background-color: rgba(255, 255, 255);
-  /*font-family: Verdana, Helvetica, Arial, sans-serif;      */     
+  font-family: Verdana, Helvetica, Arial, sans-serif;     
 }
             
 .p1 {
