@@ -123,7 +123,8 @@ img{
     }
 
 .imageCover{
-  width:100%;
+  max-width:100%;
+  height:auto;
   position: relative;
 /*  display: block;  */ 
 /*    max-width: 800px; Maximum width */
