@@ -121,7 +121,7 @@ img{
     }
 
 .imageCover{
-  max-width: 250px;
+  width=auto;
   max-height:auto;
   position: relative;
 /*  display: block;  */ 
