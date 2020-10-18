@@ -8,17 +8,15 @@ h1{
   color:Black; 
   font-family:MyCustomFont;
   text-align: left;
-   }    
+  }    
                                                                                              
-h2 {
+h2{
 	color:White; 
-  font-family:Verdana; 
   text-align: left;
   text-shadow: 4px 4px 4px black;
   padding: 10px;
   background-color: rgb(173, 173, 133);
-
-   }
+  }
                             
 .headerclass1 {
   font-family: Verdana, Helvetica, Arial, sans-serif;
@@ -80,7 +78,7 @@ a{
 }
                                                                                                               
 a:hover {
-  color:chartreuse;
+  color: blue;
         }
           
 
@@ -144,7 +142,7 @@ img{
 
 .imageContent{
     max-height: 175px;
-    min-height: 120px;  
+    min-height: 20px;  
     width: auto;
     display: block;  
     padding: 10px;
