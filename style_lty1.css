@@ -126,10 +126,9 @@ img{
   position: relative;
 /*    max-width: 800px; Maximum width */
   margin: 0 auto; /* Center it */
-   
   }    
 
-.imageCover .coverContent {
+.coverContent {
     position: absolute; /* Position the background text */
     bottom: 0; /* At the bottom. Use top:0 to append it to the top */
     background: rgb(0, 0, 0); /* Fallback color */
