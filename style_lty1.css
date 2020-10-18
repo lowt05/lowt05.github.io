@@ -12,7 +12,7 @@ h1{
   }    
                                                                                              
 h2{
-	color:aqua; 
+	color:white; 
   text-align: left;
   text-shadow: 4px 4px 4px black;
   padding: 10px;
@@ -76,7 +76,7 @@ body {
 
 a{
   text-decoration: none;
-  color: #f1f1f1;
+  color: mediumspringgreen;
 }
                                                                                                               
 a:hover {
