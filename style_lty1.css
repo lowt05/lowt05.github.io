@@ -21,12 +21,14 @@
    }
                             
 .headerclass1 {
-  font-size:60px;
+  font-size: 40px;
+  color: whitesmoke;
   font-weight:normal;
 }
 
 .headerclass2 {
-  font-size: 25px;
+  font-size: 20px;
+  color: whitesmoke;
   font-weight:normal;
 }
 
@@ -128,7 +130,7 @@ img{
   position: relative;
   }    
 
-.coverContent{
+.imageCover .coverContent{
     position: absolute; /* Position the background text */
     bottom: 0; /* At the bottom. Use top:0 to append it to the top */
     background: rgb(0, 0, 0); /* Fallback color */
