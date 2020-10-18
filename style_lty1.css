@@ -130,7 +130,7 @@ img{
     display: block;  
   }    
 
-  /*
+
   .imageContent{
     max-height: 175px;
     min-height: auto;  
@@ -138,7 +138,6 @@ img{
     display: block;  
     padding: 10px;
   }
-  */
 
   .imageRight{
     float:right;
