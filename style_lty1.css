@@ -23,20 +23,14 @@
 body {
   word-wrap: break-word;
   background-color: rgba(255, 255, 255);
-  font-family: Verdana, Helvetica, Arial, sans-serif;
-  font-size: 85%;
-  margin-left: 0px;
-  margin-right: 0px;                  
+  font-family: Verdana, Helvetica, Arial, sans-serif;           
 }
             
 .p1 {
-  css font-family:MyCustomFont;
-  /*color: rgb(61, 61, 41);*/
-  /*opacity: 1;*/
+/*  css font-family:MyCustomFont;
   color: black;
-  font-size:15px;
+  font-size:15px;*/
   background-color: rgb(230,230,230);
-  padding: 25px;
 }         
 
 .p1-right {
