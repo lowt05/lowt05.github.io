@@ -14,7 +14,7 @@
 }
 
 .bodyclass1{
-  font-family:MyCustomFont;
+  css font-family:MyCustomFont;
   color: black; 
   text-shadow: none;
   font-size:15px;
@@ -27,7 +27,7 @@ body {
 }
             
 .p1 {
-  font-family:MyCustomFont;
+  css font-family:MyCustomFont;
   color: black;
   font-size:15px;
   background-color: rgb(230,230,230);
@@ -60,13 +60,13 @@ body {
 
 .h1{
   color:Black; 
-  font-family:MyCustomFont;
+  css font-family:MyCustomFont;
   text-align: left;
    }    
                                                                                              
 .h2 {
 	color:White; 
-  font-family:Verdana; 
+  css font-family:Verdana; 
   text-align: left;
   text-shadow: 4px 4px 4px black;
   padding: 10px;
