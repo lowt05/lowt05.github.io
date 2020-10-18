@@ -146,7 +146,7 @@ img{
 
 .imageContent{
     max-height: 175px;
-    min-height: auto;  
+    min-height: 120px;  
     max-width: auto;
     display: block;  
     padding: 10px;
