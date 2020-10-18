@@ -76,7 +76,7 @@ body {
 
 a{
   text-decoration: none;
-  color: mediumspringgreen;
+  color: darkolivegreen
 }
                                                                                                               
 a:hover {
@@ -137,13 +137,13 @@ img{
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     color: #f1f1f1; /* Grey text */
     max-width: 50%; 
-    min-width: 33%;
+    min-width: 30%;
     padding: 20px;
     
   }  
 
 .imageContent{
-    max-height: 175px;
+    max-height: 200px;
     min-height: 20px;  
     width: auto;
     display: block;  
