@@ -121,8 +121,8 @@ img{
     }
 
 .imageCover{
-  width: 100%;
-  height:auto;
+  width: auto;
+  height:100%;
   position: relative;
 /*    max-width: 800px; Maximum width */
   margin: 0 auto; /* Center it */
