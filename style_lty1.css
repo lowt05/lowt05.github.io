@@ -62,13 +62,13 @@ body {
 
 
 
-h1 {
+.h1{
 	    color:Black; 
         css font-family:MyCustomFont;
         text-align: left;
    }    
                                                                                              
-header2 {
+.h2 {
 	color:White; 
         font-family:Verdana; 
         text-align: left;
@@ -124,14 +124,14 @@ a:hover {
 img{
     }
 
-#imageCover{
+.imageCover{
     width: 100%;
     height:auto;
     display: block;  
   }    
 
 
-#imageContent{
+.imageContent{
     max-height: 175px;
     min-height: auto;  
     max-width: auto;
@@ -139,23 +139,13 @@ img{
     padding: 10px;
   }
 
-#imageRight{
+.imageRight{
     float:right;
-    max-height: 175px;
-    min-height: auto;  
-    max-width: auto;
-    display: block;  
-    padding: 10px;
   }
 
-#imageLeft{
+.imageLeft{
     float:left;
     margin-right: 10px;
-    max-height: 175px;
-    min-height: auto;  
-    max-width: auto;
-    display: block;  
-    padding: 10px;
   }
 
 figure {
