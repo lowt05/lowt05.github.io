@@ -133,7 +133,7 @@ img{
 /*  margin: 0 auto; /* Center it */
   }    
 
-.coverContent {
+.imageCover .coverContent{
     position: absolute; /* Position the background text */
     bottom: 0; /* At the bottom. Use top:0 to append it to the top */
     background: rgb(0, 0, 0); /* Fallback color */
