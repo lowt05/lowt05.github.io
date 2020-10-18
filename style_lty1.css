@@ -1,5 +1,5 @@
 @font-face {
-	font-family: MyCustomFont;
+	css font-family: MyCustomFont;
   src: url("https://www.w3schools.com/cssref/sansation_light.woff");
 }
                             
@@ -31,8 +31,6 @@ body {
   color: black;
   font-size:15px;
   background-color: rgb(230,230,230);
-/*  margin-left: 0px;  */
-/*  margin-right: 0px; */
 }         
 
 .p1-right {
