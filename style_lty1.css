@@ -122,31 +122,30 @@ a:hover {
       }  
 
 img{
-   padding: 5px;
     }
 
-.imgCover{
-  width: 99%;
-  height:auto;
-  display: block;  
-}    
+  .imageCover{
+    width: 100%;
+    height:auto;
+    display: block;  
+  }    
 
-.imgContent{
-  max-height: 175px;
-  min-height: auto;  
-  max-width: auto;
-  display: block;  
-}
+  .imageContent{
+    max-height: 175px;
+    min-height: auto;  
+    max-width: auto;
+    display: block;  
+    padding: 10px;
+  }
 
+  .imageRight{
+    float:right;
+  }
 
-.iR{
-  float:right;
-}
-
-.iL{
-  float:left;
-  margin-right: 10px;
-}
+  .imageLeft{
+    float:left;
+    margin-right: 10px;
+  }
 
 figure {
     background-color: rgb(255,255,255);
