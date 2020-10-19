@@ -131,7 +131,7 @@ img{
   }    
 
 .coverContent{
-    position: absolute; 
+    position: relative; 
     bottom: 20px;  
     background: rgb(0, 0, 0); /* Fallback color */
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
