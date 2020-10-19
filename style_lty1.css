@@ -190,6 +190,7 @@ figure {
 
 figure img {
     vertical-align: top;
+    position: center; 
 }
 figure figcaption {
     /*border: 1px dotted blue;*/
