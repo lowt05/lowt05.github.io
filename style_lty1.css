@@ -161,6 +161,14 @@ img{
     padding: 10px;
   }
 
+.imageContent2{
+    height: 180px;
+    width: 180px;
+    display: block;  
+    padding: 10px;
+  }
+
+
 .imageRight{
     float:right;
   }
