@@ -14,20 +14,21 @@ h1{
 h2{
 	color:white; 
   text-align: left;
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 1px 1px 1px black;
   padding: 10px;
   background-color: rgb(173, 173, 133);
   }
                             
 .headerclass1 {
   font-family: Verdana, Helvetica, Arial, sans-serif;
-  font-size: 40px;
+  font-size: 4vw;
+  
   font-weight:normal;
 }
 
 .headerclass2 {
   font-family: Verdana, Helvetica, Arial, sans-serif;
-  font-size: 20px;
+  font-size: 2vw;
   font-weight:normal;
 }
 
@@ -132,13 +133,12 @@ img{
 
 .coverContentBottomLeft{
     position: absolute; 
-    bottom: 20px;  
+    bottom: 0px; /* 20/10/2020 */
     background: rgb(0, 0, 0); /* Fallback color */
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     color: #f1f1f1; /* Grey text */
-    max-width: 50%; 
-    min-width: 30%;
-    padding: 20px;
+    max-width: 40%; 
+    min-width: 25%;
   }  
 
 .coverContentTopRight{
