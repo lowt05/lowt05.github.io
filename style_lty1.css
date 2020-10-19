@@ -162,8 +162,8 @@ img{
   }
 
 .imageContent2{
-/*    height: 180px; */
-    width: 180px;
+    width: 200px;
+    height: 200px;
     display: block;  
     padding: 10px;
   }
