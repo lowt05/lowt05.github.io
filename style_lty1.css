@@ -76,12 +76,12 @@ body {
 
 a{
   text-decoration: none;
-  color:black
+  color:coral;
   font-weight: bold;
 }
                                                                                                               
 a:hover {
-  color: red;
+  color: blue;
 }
 
 .addBorder1 {
