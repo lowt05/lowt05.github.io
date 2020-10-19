@@ -82,16 +82,15 @@ a{
                                                                                                               
 a:hover {
   color: red;
-        }
-          
+}
 
 .addBorder1 {
   border:solid 1px grey;
-            }            
+}            
              
 .addBorder2 {
 	border:solid 1px blue;
-            }    
+}    
 
 
 #container-1{
