@@ -29,6 +29,8 @@ h2{
   font-family: Verdana, Helvetica, Arial, sans-serif;
   font-size: 20px;
   font-weight:normal;
+  max-width: 50%; 
+  min-width: 30%;
 }
 
 .bodyclass1{
