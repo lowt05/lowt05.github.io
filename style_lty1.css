@@ -133,12 +133,13 @@ img{
 
 .coverContentBottomLeft{
     position: absolute; 
-    bottom: 0px; /* 20/10/2020 */
+    bottom: 0px; 
     background: rgb(0, 0, 0); /* Fallback color */
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     color: #f1f1f1; /* Grey text */
     max-width: 40%; 
-    min-width: 25%;
+    min-width: 20%;
+    padding: 10px;
   }  
 
 .coverContentTopRight{
