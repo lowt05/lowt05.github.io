@@ -183,8 +183,9 @@ figure {
     background-color: rgb(255,255,255);
     display: inline-block;
     /*border: 1px dotted gray; */
-    min-width: 20%
-    max-width: 28%
+    /* min-width: 20% */
+    /* max-width: 28% */
+    width=25%;
     height: auto;
     margin: 10 px; 
 }
