@@ -13,11 +13,20 @@ window.addEventListener("load",function(){
     var bookings = document.getElementById("booking-list");
     var bookingIds=[];
 
-    for (var i = 0; i < json.sheet1.length; i++){
-      var gName = json.sheet1[i].name;
-      var gEmail = json.sheet1[i].email;
-      var gPax = json.sheet1[i].pax;
-      var gId = json.sheet1[i].id;
+ //   for (var i = 0; i < json.sheet1.length; i++){
+ //     var gName = json.sheet1[i].name;
+ //     var gEmail = json.sheet1[i].email;
+ //     var gPax = json.sheet1[i].pax;
+ //     var gId = json.sheet1[i].id;
+
+ for (var i = 0; i < json.bookings.length; i++){
+ var gName = json.bookings[i].name;
+ var gEmail = json.bookings[i].email;
+ var gPax = json.bookings[i].pax;
+ var gId = json.bookings[i].id;
+
+
+
       var buttonId = "delete" + gId;
 
       let row = bookings.insertRow(bookings.rows.length);
