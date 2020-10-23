@@ -4,7 +4,8 @@ window.addEventListener("load",function(){
   
   function GetBookings(){
 //  let url = 'https://api.sheety.co/d2f6c22aad720df1ddb808edebcc390a/bookingApIdemo/sheet1';
-  let url = 'https://api.sheety.co/b9b23bacbce0fa05289abc34d8cf52e6/bookingApp/bookings';
+//  let url = 'https://api.sheety.co/b9b23bacbce0fa05289abc34d8cf52e6/bookingApp/bookings';
+   let url = 'https://docs.google.com/spreadsheets/d/1LDfjA2CjNPUSgrlI1PMZ7AqAZoVDVTxKScgQofWTwSw/edit';
   fetch(url)
   .then((response) => response.json())
   .then(json => {
@@ -13,17 +14,17 @@ window.addEventListener("load",function(){
     var bookings = document.getElementById("booking-list");
     var bookingIds=[];
 
- //   for (var i = 0; i < json.sheet1.length; i++){
- //     var gName = json.sheet1[i].name;
- //     var gEmail = json.sheet1[i].email;
- //     var gPax = json.sheet1[i].pax;
- //     var gId = json.sheet1[i].id;
+   for (var i = 0; i < json.sheet1.length; i++){
+      var gName = json.sheet1[i].name;
+      var gEmail = json.sheet1[i].email;
+      var gPax = json.sheet1[i].pax;
+      var gId = json.sheet1[i].id;
 
- for (var i = 0; i < json.bookings.length; i++){
- var gName = json.bookings[i].name;
- var gEmail = json.bookings[i].email;
- var gPax = json.bookings[i].pax;
- var gId = json.bookings[i].id;
+ //for (var i = 0; i < json.bookings.length; i++){
+ //var gName = json.bookings[i].name;
+ //var gEmail = json.bookings[i].email;
+ //var gPax = json.bookings[i].pax;
+ //var gId = json.bookings[i].id;
 
 
 
