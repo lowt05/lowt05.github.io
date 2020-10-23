@@ -25,7 +25,7 @@ window.addEventListener("load",function(){
       row.insertCell(2).innerHTML = gEmail;
       row.insertCell(3).innerHTML = gPax;
       row.insertCell(4).innerHTML = ""; //Remarks
-      row.insertCell(5).innerHTML = "<button id='" + buttonId + "'>Delete</button></br>; 
+      row.insertCell(5).innerHTML = "<button id='" + buttonId + "' class'btn btn-Danger'>Delete</button></br>; 
 
       // bookings.innerHTML += gId + "- " + gName + ", " + gEmail + "- " + gPax;
       // bookings.innerHTML += "<button id='" + buttonId + "'>Delete </button></br>";
