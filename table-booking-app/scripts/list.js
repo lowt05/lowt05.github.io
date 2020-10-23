@@ -44,25 +44,4 @@ window.addEventListener("load",function(){
     
    });
   }
-  
-  document.getElementById("getBooking").addEventListener("click",function(){
-    GetBookings();
-  })
-  
-  
-  function DeleteBooking(id){
-    let url = 'https://api.sheety.co/d2f6c22aad720df1ddb808edebcc390a/bookingApi/sheet1/'+id;
-  fetch(url, {
-    method: 'DELETE',
-  })
-  .then((response) => {
-    document.getElementById("deleteMsg").innerHTML="Booking deleted!"
-    document.getElementById("deleteId").value="";
-    GetBookings();
-  });
-  }
-  
-  document.getElementById("deleteBooking").addEventListener("click",function(){
-      DeleteBooking(document.getElementById("deleteId").value);
-    });
-    
+ 
