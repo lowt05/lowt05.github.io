@@ -18,13 +18,13 @@ function BookNow(guestName, guestEmail,guestPax){
     .then(json => {
       // Do something with object
       console.log(json.sheet1);
-      document.getElementById("bookMsg").innerHTML=json.sheet1.name + " sucessfully added!";
-      GetBookings();
+      // document.getElementById("bookMsg").innerHTML=json.sheet1.name + " sucessfully added!";
+      // GetBookings();
     });
   }
   
-
-  document.getElementById("bookNow").addEventListener("click",function(){
+  window.addEventListener("load",function(){
+    document.getElementById("bookNow").addEventListener("click",function(){
       let name = document.getElementById("guestName").value;
       let email = document.getElementById("guestEmail").value;
       let pax = document.getElementById("guestPax").value;
@@ -32,3 +32,8 @@ function BookNow(guestName, guestEmail,guestPax){
 
       console.log(name + "," + email + "," + "," + pax + "," + remarks);
   });
+
+  });
+
+
+  
