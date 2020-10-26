@@ -4,7 +4,6 @@ window.addEventListener("load",function(){
   
   function GetBookings(){
 let url = 'https://api.sheety.co/d2f6c22aad720df1ddb808edebcc390a/bookingApIdemo/sheet1';
-// let url = 'https://api.sheety.co/b9b23bacbce0fa05289abc34d8cf52e6/bookingApp/bookings';
   fetch(url)
   .then((response) => response.json())
   .then(json => {
@@ -25,8 +24,6 @@ let url = 'https://api.sheety.co/d2f6c22aad720df1ddb808edebcc390a/bookingApIdemo
  //var gPax = json.bookings[i].pax;
  //var gId = json.bookings[i].id;
 
-
-
       var buttonId = "delete" + gId;
 
       let row = bookings.insertRow(bookings.rows.length);
@@ -35,7 +32,7 @@ let url = 'https://api.sheety.co/d2f6c22aad720df1ddb808edebcc390a/bookingApIdemo
       row.insertCell(2).innerHTML = gEmail;
       row.insertCell(3).innerHTML = gPax;
       row.insertCell(4).innerHTML = ""; //Remarks
-      row.insertCell(5).innerHTML = <button id='" + buttonId + "' class='btn btn-danger'>Delete</button></br>"; 
+      row.insertCell(5).innerHTML = <button id='" + buttonId + "' class='btn btn-danger'>Delete</button></br>; 
 
       // bookings.innerHTML += gId + "- " + gName + ", " + gEmail + "- " + gPax;
       // bookings.innerHTML += "<button id='" + buttonId + "'>Delete </button></br>";
