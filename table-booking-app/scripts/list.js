@@ -44,14 +44,14 @@ let url = 'https://api.sheety.co/d2f6c22aad720df1ddb808edebcc390a/bookingApIdemo
   }
  
 
-  function DeleteBooking(id){
+  function DeleteBooking(theId){
     
     if(confirm("Are you sure you want to delete?")){
 
-    //let url = 'https://api.sheety.co/d2f6c22aad720df1ddb808edebcc390a/bookingApi/sheet1/'+id;
-     let url = 'https://api.sheety.co/d2f6c22aad720df1ddb808edebcc390a/bookingApIdemo/sheet1'+id;
+    //let url = 'https://api.sheety.co/d2f6c22aad720df1ddb808edebcc390a/bookingApi/sheet1/'+theId;
+     let url = 'https://api.sheety.co/d2f6c22aad720df1ddb808edebcc390a/bookingApIdemo/sheet1'+theId;
       fetch(url, {
-        method: 'DELETE'
+        method: 'DELETE',
       })
       .then((response) => {
         location.reload();
