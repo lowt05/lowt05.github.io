@@ -30,7 +30,7 @@ function BookNow(guestName, guestEmail,guestPax, guestRemarks){
       let pax = document.getElementById("guestPax").value;
       let remark = document.getElementById("guestRemarks").value;
 
-      BookNow(name, email, pax, remarks);
+      BookNow(name, email, pax, remark);
 
   });
 });
