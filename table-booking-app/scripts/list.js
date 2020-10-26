@@ -51,7 +51,7 @@ function DeleteBooking(id){
     //let url = 'https://api.sheety.co/d2f6c22aad720df1ddb808edebcc390a/bookingApi/sheet1/'+id;
      let url = 'https://api.sheety.co/d2f6c22aad720df1ddb808edebcc390a/bookingApIdemo/sheet1'+id;
       fetch(url, {
-        method: 'DELETE'
+        method:"delete"
       })
       .then((response) => {
         location.reload();
