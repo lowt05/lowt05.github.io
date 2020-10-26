@@ -17,6 +17,7 @@ let url = 'https://api.sheety.co/d2f6c22aad720df1ddb808edebcc390a/bookingApIdemo
       var gEmail = json.sheet1[i].email;
       var gPax = json.sheet1[i].pax;
       var gId = json.sheet1[i].id;
+      var gRemarks = json.bookings[i].remarks
       var buttonId = "delete" + gId;
 
       let row = bookings.insertRow(bookings.rows.length);
@@ -24,8 +25,8 @@ let url = 'https://api.sheety.co/d2f6c22aad720df1ddb808edebcc390a/bookingApIdemo
       row.insertCell(1).innerHTML = gName;
       row.insertCell(2).innerHTML = gEmail;
       row.insertCell(3).innerHTML = gPax;
-      row.insertCell(4).innerHTML = ""; //Remarks
-      row.insertCell(5).innerHTML = <button id='" + buttonId + "' class='btn btn-danger'>Delete</button></br>; 
+      row.insertCell(4).innerHTML = gRemarks; 
+      row.insertCell(5).innerHTML = "<button id='" + buttonId + "' class='btn btn-danger'>Delete</button></br>"; 
 
       bookingIds.push(buttonId);
       

@@ -1,10 +1,11 @@
-function BookNow(guestName, guestEmail,guestPax){
+function BookNow(guestName, guestEmail,guestPax, guestRemarks){
     let url = 'https://api.sheety.co/d2f6c22aad720df1ddb808edebcc390a/bookingApi/sheet1';
     let body = {
       sheet1: {
         name: guestName,
         email: guestEmail,
-        pax: guestPax
+        pax: guestPax,
+        remarks: guestRemarks
       }
     }
     fetch(url, {
@@ -18,8 +19,7 @@ function BookNow(guestName, guestEmail,guestPax){
     .then(json => {
       // Do something with object
       console.log(json.sheet1);
-      // document.getElementById("bookMsg").innerHTML=json.sheet1.name + " sucessfully added!";
-      // GetBookings();
+       alert(json.sheet1.name + " sucessfully added!");
     });
   }
   
@@ -30,8 +30,7 @@ function BookNow(guestName, guestEmail,guestPax){
       let pax = document.getElementById("guestPax").value;
       let remark = document.getElementById("guestRemarks").value;
 
-      console.log(name + "," + email + "," + "," + pax + "," + remarks);
-  });
+      BookNow(name, email, pax, remarks);
 
   });
 
