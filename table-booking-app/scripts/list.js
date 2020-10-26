@@ -17,7 +17,7 @@ let url = 'https://api.sheety.co/d2f6c22aad720df1ddb808edebcc390a/bookingApIdemo
       var gEmail = json.sheet1[i].email;
       var gPax = json.sheet1[i].pax;
       var gId = json.sheet1[i].id;
-      var gRemarks = json.bookings[i].remarks
+      var gRemarks = json.sheet1[i].remarks;
       var buttonId = "delete" + gId;
 
       let row = bookings.insertRow(bookings.rows.length);
