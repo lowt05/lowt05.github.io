@@ -65,14 +65,7 @@ let url = 'https://api.sheety.co/d2f6c22aad720df1ddb808edebcc390a/bookingApIdemo
         method: 'DELETE',
       })
       .then((response) => {
-        lovaation.reload();
- 
-//        let table = document.getElementById("booking-list");
- //       for(let i=1; i < table.rows.length; i++){
-  //        table.deleteRow(i);
-    //      console.log("table length "+ table.rows.length);
-        }
-        //GetBookings();
+        location.reload();
       }); 
 
     }else{
