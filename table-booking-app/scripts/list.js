@@ -32,12 +32,12 @@ function GetBookings(){
         
       }
 
-    for (let j=0; j<bookingIds.length; j++){
-        let el=document.getElementById(bookingIds[j]);
-        el.addEventListener("click", function(){
+      for (let j=0; j<bookingIds.length; j++){
+        console.log(bookingIds[j]);
+       let el=document.getElementById(bookingIds[j]);
+       el.addEventListener("click", function(){
         let theId=bookingIds[j].replace("delete",""); 
-          DeleteBooking(theId);
-        });
+        DeleteBooking(theId);
       }  
       
     });
@@ -47,11 +47,9 @@ function GetBookings(){
 function DeleteBooking(id){
     
     if(confirm("Are you sure you want to delete?")){
-
-    //let url = 'https://api.sheety.co/d2f6c22aad720df1ddb808edebcc390a/bookingApi/sheet1/'+id;
-     let url = 'https://api.sheety.co/d2f6c22aad720df1ddb808edebcc390a/bookingApIdemo/sheet1'+id;
+      let url = 'https://api.sheety.co/d2f6c22aad720df1ddb808edebcc390a/bookingApi/sheet1/'+id;
       fetch(url, {
-        method:"delete"
+        method: 'DELETE',
       })
       .then((response) => {
         location.reload();
