@@ -73,7 +73,7 @@ let url = 'https://api.sheety.co/d2f6c22aad720df1ddb808edebcc390a/bookingApIdemo
       }); 
 
     }else{
-      alert("Deletecancelled";)
+      alert("Deletecancelled");
     }
   }
   
