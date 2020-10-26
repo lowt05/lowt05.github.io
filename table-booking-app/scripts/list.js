@@ -58,7 +58,7 @@ let url = 'https://api.sheety.co/d2f6c22aad720df1ddb808edebcc390a/bookingApIdemo
 
   function DeleteBooking(id){
     
-    if(confirm("Are you sure you to delete?")){
+    if(confirm("Are you sure you want to delete?")){
 
       let url = 'https://api.sheety.co/d2f6c22aad720df1ddb808edebcc390a/bookingApi/sheet1/'+id;
       fetch(url, {
@@ -73,7 +73,7 @@ let url = 'https://api.sheety.co/d2f6c22aad720df1ddb808edebcc390a/bookingApIdemo
       }); 
 
     }else{
-      alert("Deletecancelled");
+      alert("Delete cancelled");
     }
   }
   
