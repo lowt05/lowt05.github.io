@@ -45,17 +45,14 @@ function GetBookings(){
    }
 
 function DeleteBooking(id){
-    
     if(confirm("Are you sure you want to delete?")){
-
      let url = 'https://api.sheety.co/99528d9511632b06c1b7c8b56fb9f308/bookingApIsheet/sheet1/'+id;
      fetch(url, {
         method: 'DELETE'
       })
       .then((response) => {
         location.reload();
-      }) 
-
+      }); 
     }else{
       alert("Delete cancelled");
     }
