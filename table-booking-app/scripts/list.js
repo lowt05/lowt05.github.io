@@ -38,7 +38,7 @@ function GetBookings(){
        el.addEventListener("click", function(){
         let theId=bookingIds[j].replace("delete",""); 
         DeleteBooking(theId);
-      }  
+      });  
       
     });
     }
