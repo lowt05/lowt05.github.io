@@ -12,7 +12,7 @@ function GetBookings(){
       var bookings = document.getElementById("booking-list");
       var bookingIds=[];
 
-    for (var i = 0; i < json.bookings.length; i++){
+    for (var i = 0; i < json.sheet1.length; i++){
         var gName = json.sheet1[i].name;
         var gEmail = json.sheet1[i].email;
         var gPax = json.sheet1[i].pax;
