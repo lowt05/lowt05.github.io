@@ -39,7 +39,7 @@ function GetBookings(){
         let theId=bookingIds[j].replace("delete",""); 
         DeleteBooking(theId);
       });  
-      
+    }
     });
     }
   
