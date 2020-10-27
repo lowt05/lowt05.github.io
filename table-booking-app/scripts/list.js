@@ -3,10 +3,8 @@ window.addEventListener("load",function(){
 });
   
 function GetBookings(){
-  //let url = 'https://api.sheety.co/d2f6c22aad720df1ddb808edebcc390a/bookingApIdemo/sheet1';
-  //let url = 'https://docs.google.com/spreadsheets/d/1LDfjA2CjNPUSgrlI1PMZ7AqAZoVDVTxKScgQofWTwSw/edit?usp=sharing';
-  let url = 'https://api.sheety.co/d2f6c22aad720df1ddb808edebcc390a/bookingApIdemo/sheet1https://spreadsheets.google.com/feeds/cells/1LDfjA2CjNPUSgrlI1PMZ7AqAZoVDVTxKScgQofWTwSw/1/public/full?alt=json';
-    fetch(url)
+  let url = 'https://api.sheety.co/99528d9511632b06c1b7c8b56fb9f308/bookingApIsheet/sheet1';
+     fetch(url)
     .then((response) => response.json())
     .then(json => {
       // Do something with the data
@@ -49,10 +47,8 @@ function GetBookings(){
 function DeleteBooking(id){
     
     if(confirm("Are you sure you want to delete?")){
-      //let url = 'https://api.sheety.co/d2f6c22aad720df1ddb808edebcc390a/bookingApi/sheet1/'+id;
-      //let url = 'https://docs.google.com/spreadsheets/d/1LDfjA2CjNPUSgrlI1PMZ7AqAZoVDVTxKScgQofWTwSw/edit?usp=sharing'+id;
-      let url = 'https://api.sheety.co/d2f6c22aad720df1ddb808edebcc390a/bookingApIdemo/sheet1https://spreadsheets.google.com/feeds/cells/1LDfjA2CjNPUSgrlI1PMZ7AqAZoVDVTxKScgQofWTwSw/1/public/full?alt=json'+id;
-      fetch(url, {
+     let url = 'https://api.sheety.co/99528d9511632b06c1b7c8b56fb9f308/bookingApIsheet/sheet1/'+id;
+     fetch(url, {
         method: 'DELETE'
       })
       .then((response) => {
