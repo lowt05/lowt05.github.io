@@ -38,10 +38,11 @@ function GetBookings(){
        el.addEventListener("click", function(){
         let theId=bookingIds[j].replace("delete",""); 
         DeleteBooking(theId);
-      });  
-      }
-    
-  
+       });
+     }
+     
+    });
+   }
 
 function DeleteBooking(id){
     
@@ -57,4 +58,5 @@ function DeleteBooking(id){
     }else{
       alert("Delete cancelled");
     }
-
+  }
+  
