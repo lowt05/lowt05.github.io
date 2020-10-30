@@ -4,7 +4,7 @@ Vue.component("todo-item",{
 });
 
 var app7 = new Vue({
-    el: "app-7",
+    el: "#app-7",
     data: {
         groceryList: [
             {id:0, text: "Vegetables"},
