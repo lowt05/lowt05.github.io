@@ -1,0 +1,130 @@
+body {
+    /* font: 400 15px/1.8 Lato, sans-serif; */
+     color: black;
+   }
+ 
+ p{
+   font-size:14;
+ }
+ 
+ .backGround-black {
+   background: #2d2d30 /* #3E2723*/;
+   color: #bdbdbd;
+ }
+ 
+ .backGround-grey {
+   background: #424242;
+   color: #F1F8E9;
+ }
+ 
+ 
+ .backgroundImg{
+   background-image: url('https://images.unsplash.com/photo-1578922538685-0155e12557c0?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ');
+   
+ /*url:('https://images.unsplash.com/photo-1530176611600-d05a6387d07c?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ'*/  
+ 
+ }
+ 
+ .imageCover{
+   width:100%;
+   max-width:auto;
+   max-height:auto;
+   position: relative;
+   }    
+ 
+ div.padContainer{
+   padding:125px;
+ }
+ 
+ .container {
+   padding: 40px /*120px*/;
+ }
+ 
+ /* Remove rounded borders on input fields */
+ select.form-control {
+   border-radius: 0;
+ }
+ 
+ input.form-control {
+   border-radius: 0;
+ }
+ 
+ textarea.form-control {
+   border-radius: 0;
+ }
+ 
+ 
+ 
+ .carousel-inner img {
+  /* width: 100%; */
+   width: auto;
+   max-height: 560px;
+   margin: auto;
+ }
+ 
+ .carousel-caption h3 {
+   color: #fff;
+ }
+ 
+ @media (max-width: 600px max-height: 400px) {
+   .carousel-caption {
+     display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+   }
+ }
+ 
+ /* Add a dark background color with a little bit see-through */
+ .navbar {
+   margin-bottom: 0;
+   background-color: #2d2d30;
+   border: 0;
+   font-size: 12px;
+   letter-spacing: 4px;
+   opacity: 0.9;
+ }
+ 
+ /* Add a gray color to all navbar links */
+ .navbar li a, .navbar .navbar-brand {
+   color: #d5d5d5 !important;
+ }
+ 
+ /* On hover, the links will turn white */
+ .navbar-nav li a:hover {
+   color: #F1F8E9 !important;
+ }
+ 
+ /* The active link */
+ .navbar-nav li.active a {
+   color: #fff !important;
+   background-color:#29292c !important;
+ }
+ 
+ /* Remove border color from the collapsible button */
+ .navbar-default .navbar-toggle {
+   border-color: transparent;
+ }
+ 
+ 
+ /* zoom a picture */
+ 
+ .zoom {
+   transition: transform .2s; /* Animation */
+ }
+ 
+ .zoom:hover {
+   transform: scale(1.1); 
+ }
+ 
+ /* On hover, the color of .btn will transition to white with black text */
+ .btn:hover, .btn:focus {
+   border: 1px solid #333;
+   background-color: #80DEEA /*#1E88E5*/;
+   color: #F1F8E9;
+ }
+ 
+ .btnText{
+   color: #424242;
+ }
+ 
+ 
+ 
+ 
