@@ -40,6 +40,7 @@ body {
    padding: 40px /*120px*/;
  }
  
+
  /* Remove rounded borders on input fields */
  select.form-control {
    border-radius: 0;
@@ -54,6 +55,9 @@ body {
  }
  
  
+ .carousel.topPadding{
+     padding-top:15px;
+ }
  
  .carousel-inner img {
   /* width: 100%; */
