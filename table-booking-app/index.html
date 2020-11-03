@@ -1,89 +1,286 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <title>The Verandah Restaurant</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+  
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-
-    <script src="scripts/index.js"></script>
-    <title>Home - Table Booking App</title>
-  </head>
-  <body>
-    <div class="container-fluid">
-      <!-- Nav Bar -->
+  <!--NAVBAR SECTION-->  
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid backGround-grey">
       
-        <div class="row">
-          <div class="col">
-              <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">
-                  <img src="https://assets.codepen.io/4530873/booking.svg" width="40"/>
-                  Table Booking App
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="index.html">Home <!-- <span class="sr-only">(current)</span>--> </a> 
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="book.html">Book Table</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="list.html">View Bookings</a>
-                    </li>
-
-
-                    <!-- <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                      </a>
-                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                      </div>
-                    </li> 
-                   <li class="nav-item">  
-                   <a class="nav-link disabled" href="#" tabindex="-1" aria- disabled="true">Disabled</a> 
-                </li>   -->
-
-                  </ul>
-
-                  <!-- form class="form-inline my-2 my-lg-0"> 
-                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">  
-                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> 
-                  </form> -->
-                </div>
-            </nav>
-          </div>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+   <!--         <span class="icon-bar"></span>
+            <span class="icon-bar"></span>           -->           
+          </button>
+          <a class="navbar-brand" href="#myCarousel"> <strong>The Verandah</strong></a>
         </div>
       
-      <!-- Jumbotron Bar -->
-      <div class="row">
-        <div class="col">
-          <div class="jumbotron">
-            <h1 class="display-4">Discover your taste palate!</h1>
-            <p class="lead">With thousands of menu to choose from, the only thing you need is your gut!</p>
-            <hr class="my-4">
-        <!--    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p> -->
-            <a class="btn btn-primary btn-lg" href="book.html" role="button">I'm ready, lets do this!</a>
-          </div> <!-- Jumbotron element -->
-        </div>  <!-- Jumbotron col -->  
-      </div>  <!-- Jumbotron row -->
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#myCarousel">HOME</a></li>
+          <li><a href="#aboutUs">ABOUT</a></li>
+          <li><a href="#menu">MENU</a></li>
+          <li><a href="book.html">MAKE A BOOKING</a></li>
+          <li><a href="list.html">CHECK BOOKINGS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+<!--          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Merchandise</a></li>
+              <li><a href="#">Extras</a></li>
+              <li><a href="#">Media</a></li> 
+            </ul>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- INTRO SECTION -->  
+  <div id="myCarousel" class="carousel slide blackGround-1" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+
+    </ol>
+
+    <!-- Slide wrapper -->
+    <div class="carousel-inner" role="listbox">
       
-    </div>  
+      <div class="item active">
+        <img src="https://images.unsplash.com/photo-1562835155-1fa627c69744?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ" alt="Restaurant">
+        <div class="carousel-caption">
+          <h3><strong>The Verandah</strong></h3>
+          <p>at The Life Centre, Kuala Lumpur</p>
+        </div>
+      </div>
+      
+      <div class="item">
+        <img src="https://images.unsplash.com/photo-1603208614636-aa308b918a32?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ" alt="Bisque Soup">
+        <div class="carousel-caption">
+          <h3>Satisfaction Served</h3>
+          <p>Soothing Bowl of Bisque Soup</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <img src="https://images.unsplash.com/photo-1508471349025-ca3e278cf5e2?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ" alt="Salad">
+        <div class="carousel-caption">
+          <h3>Tasty and Healthy Greens</h3>
+          <p>Salad with a Tuna carpaccio</p>
+        </div>
+      </div>    
     
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+      <div class="item">
+        <img src="https://images.unsplash.com/photo-1589227365533-cee630bd59bd?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ" alt="Pasta1">
+        <div class="carousel-caption">
+          <h3>Comforts of Home</h3>
+          <p>Succulent Spaghetti and Meatballs, finished in a tomato and herb sauce</p>
+        </div>
+      </div>
 
+      <div class="item">
+        <img src="https://images.unsplash.com/photo-1585492594199-2211db8cbd4e?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ" alt="Chocolate Mousse">
+        <div class="carousel-caption">
+          <h3>Tantalizing Desserts</h3>
+          <p>White and Dark Chocolate Mousse</p>
+        </div>
+      </div>
 
-  </body>
+      <div class="item">
+        <img src="https://images.unsplash.com/photo-1521127474489-d524412fd439?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ" alt="Capuccino">
+        <div class="carousel-caption">
+          <h3>Refreshing Accompaniments</h3>
+          <p>Capuccino with our own roasted Arabica coffee beans</p>
+        </div>
+      </div>
+      
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    
+  </div>  
+
+  <!-- ABOUT SECTION -->  
+  <div id="aboutUs" class="container text-center padContainer">
+    <h3><strong>THE VERANDAH</strong></h3>
+    <p><em>Welcome !</em></p><br>
+    <p>We have been serving your international favourites since 2012 from our restaurant in Kuala Lumpur. Situated in The Life Centre, Jalan Sultan Ismail, our dedicated team has been creating dishes that are at the forefront of Kuala Lumpur's foodie's and Instagrammer's minds. We warmly welcome you to come and savour your favourite dishes from our dedicated chefs. Come for lunch, dinner or just coffee and desserts!</p>
+    <br><br>
+    <div class="row">
+      <div class="col-sm-4">
+        <p><strong>Chef Ridzwan</strong></p><br>
+        <a href="#chef1" data-toggle="collapse">
+        <img src="https://images.unsplash.com/photo-1595273670150-bd0c3c392e46?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ" width="175" height="125" alt="Pic of chef1" class="zoom">
+        </a>
+      <div id="chef1" class="collapse">
+        <br><p>Experience: Kuala Lumpur, Sydney, London, Venice</p>
+        <p>Passions: Electric Guitar, Outdoors, Mountain-biking</p>
+        <p>with us since 2012</p>
+      </div> 
+    </div>
+    
+      <div class="col-sm-4" >
+        <p><strong>Chef Yumi</strong></p><br>
+        <a href="#chef2" data-toggle="collapse">
+        <img src="https://images.unsplash.com/photo-1577930740770-486fcbb36d69?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ" width="175" height="125" alt="Pic of chef2" class="zoom">
+        </a>
+        <div id="chef2" class="collapse">
+          <br><p>Experience: Osaka, Bangkok, Amsterdam, Bonn</p>
+          <p>Passions: Batik printing, Water colour painting, Cats</p>
+          <p>with us since 2015</p>
+        </div>
+      </div>
+    
+      <div class="col-sm-4">
+        <p><strong>Chef Marco</strong></p><br>
+        <a href="#chef3" data-toggle="collapse">
+        <img src="https://images.unsplash.com/photo-1562775897-0e19642acd57?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ" width="175" height="125"  alt="Pic of chef3" class="zoom">
+        </a>
+        <div id="chef3" class="collapse">
+          <br><p>Experience: Lisbon, New York, Brussels, Tokyo, Perth, </p>
+          <p>Passions: Chocolate, Clarinet, Coffee</p>
+          <p>with us since 2018</p>
+        </div>   
+      </div> 
+      
+    </div>
+
+  </div>
+  
+  <!-- MENU SECTION -->    
+  <div id="menu" class="padContainer backGround-black container text-center">
+
+        
+        <p><strong>THE VERANDAH</strong></p><br>
+        <h1>MENU</h1>    
+        <br><br><hr/><br>
+    
+        <h2>SOUPS</h2><br>
+        <h3>Bisque</h3>
+        <p><em>A luscious and creamy tomato and crustacean flavoured soup<br>RM 15</em></p><br>
+
+        <h3>Tomato & Herb</h3>
+        <p><em>A comforting soup, of sun-ripened tomatoes and fresh herbs<br>RM 13</em></p><br>
+    
+        <h3>French Onion</h3>
+        <p><em>A perfect comfort-food dinner, served with a side of bread for dipping and topped with a decadent layer of cheese<br>RM 12</em></p><br>
+    
+        <hr/><br>  
+        <h2>SALADS</h2><br>
+        <h3>Aucklander </h3>
+        <p><em>Rocket Leaves, sliced Tuna, Walnuts, with a Crushed Olive and Capers Dressing<br>RM 18</em></p><br>
+
+        <h3>Waldorf</h3>
+        <p><em>Celery, Apple, Walnuts in a Rich Creamy Dressing<br>RM 16</em></p><br>
+    
+        <h3>Greek</h3>
+        <p><em>Vine Ripened Tomatoes, Feta Cheese and Basil with a light Dressing<br>RM 16</em></p><br>
+    
+        <hr/><br>  
+        <h2>THE MAINS</h2><br>
+        <h3>Milano Spaghetti and Meatballs</h3>
+        <p><em>Succulent spaghetti and beef (or chicken if you prefer) meatballs, finished in a rich tomato and herb sauce, inspired by a time-trusted recipe from Milan<br>RM 22</em></p><br>
+
+        <h3>Bondi Fish and Chips</h3>
+        <p><em>The Classic Fish and Chips, with a Sydney-style tartare sauce and summer vegetables<br>RM 24</em></p><br>
+    
+        <h3>Jeju Jiggae</h3>
+        <p><em>The classic Kimchi Jiggae stew, southern style, with mature kimchi, chicken, tofu, with a steaming bowl of rice<br>RM 16</em></p><br>
+    
+        <hr/><br>  
+        <h2>DESSERTS</h2><br>
+        <h3>Lisbon Chocolate Mousse</h3>
+        <p><em>A rich and satisfying White and Dark Chocolate Mousse<br>RM 13</em></p><br>
+
+        <h3>Melaka Ais Kacang</h3>
+        <p><em>Shaved Ice, Malaysian Style, all the works with rich coconut milk, brown sugar syrup, creamed corn, jelly and cendol<br>RM 12</em></p><br>
+    
+        <h3>Amsterdam Apple Pie</h3>
+        <p><em>A generous serving of Apple Pie, with vanilla ice cream and freshly whipped cream<br>RM 15</em></p><br>
+    
+        <hr/><br>  
+        <h2>REFRESHMENTS</h2><br>
+        <h3>Cappucino </h3>
+        <p><em>Cappucino with our own Roasted Arabica Beans<br>RM 11</em></p><br>
+
+        <h3>Cafe Latte</h3>
+        <p><em>Freshly brewed coffee in New Zealand milk<br>RM 13</em></p><br>
+    
+        <h3>Earl Grey Tea</h3>
+        <p><em>Lemon-scented English Tea<br>RM 9</em></p><br>
+    
+        <h3>Ice Lemon Tea</h3>
+        <p><em>South African Lemons with English Breakfast Tea in ince<br>RM 11</em></p><br>
+    
+  <hr/><br><br>
+  <p><strong>THE VERANDAH</strong></p>
+  <p>Kuala Lumpur</p>  
+    
+  </div>
+  
+  <!-- MAKE A BOOKING SECTION -->  
+
+  <!-- CHECK BOOKINGS SECTION -->
+  
+  
+  <!-- CONTACT US SECTION -->  
+  <div id="contact" class="container">
+    <h3 class="text-center">Contact Us</h3>
+    <p class="text-center"><em>Got an enquiry?</em></p> <br>
+    <div class="row test">
+      <div class="col-md-4">
+        <p>Send us a note. We promise to reply to you:</p>
+        <p><span class="glyphicon glyphicon-map-marker"></span><strong>&nbsp; The Verandah, Lot 01-05, Ground Floor, Life Centre Building,
+20 Jalan Sultan Ismail,
+50250 Kuala Lumpur,
+          Malaysia</strong></p>
+        <p><span class="glyphicon glyphicon-phone"></span>&nbsp; Phone: +60 3 2162 3333</p>
+        <p><span class="glyphicon glyphicon-envelope"></span>&nbsp; Email: TheVerandahKL@gmail.com</p>
+        <p><span class="glyphicon glyphicon-time"></span>&nbsp; Hours: Lunch: 11:00am - 3:00pm  Dinner: 5:30pm - 9:30pm</p>
+      </div>
+      <div class="col-md-8">
+        <div class="row">
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="name" name="name" placeholder="Your Name" type="text" required>
+          </div>
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="email" name="email" placeholder="Your Email" type="email" required>
+          </div>
+        </div>
+        <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="7"></textarea>
+        <br>
+        <div class="row">
+          <div class="col-md-12 form-group">
+            <button class="btn pull-right" type="submit">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+
+</body>
 </html>
