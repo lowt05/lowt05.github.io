@@ -39,7 +39,11 @@ body {
  .container {
    padding: 40px /*120px*/;
  }
- 
+
+ .topPadding{
+    padding-top:60px;
+ }
+
 
  /* Remove rounded borders on input fields */
  select.form-control {
@@ -53,11 +57,8 @@ body {
  textarea.form-control {
    border-radius: 0;
  }
- 
- .topPadding{
-     padding-top:60px;
- }
- 
+
+
  .carousel-inner img {
   /* width: 100%; */
    width: 100%;
@@ -69,7 +70,7 @@ body {
    color: #fff;
  }
  
- @media (max-width: 600px max-height: 400px) {
+ @media (max-width:600px max-height:400px) {
    .carousel-caption {
      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
    }
