@@ -13,10 +13,10 @@ function GetBookings(){
       var bookingIds=[];
 
     for (var i = 0; i < json.sheet1.length; i++){
-        var gId = json.sheet1[i].id;
         var gName = json.sheet1[i].name;
         var gPhone = json.sheet1[i].phone; 
         var gEmail = json.sheet1[i].email;
+        var gId = json.sheet1[i].id;
         var gDate = json.sheet1[i].date;
         var gPax = json.sheet1[i].pax;
         var gSession = json.sheet1[i].session;
