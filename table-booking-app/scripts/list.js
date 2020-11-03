@@ -9,7 +9,7 @@ function GetBookings(){
     .then(json => {
       // Do something with the data
       //console.log(json.sheet1);
-      var bookings = document.getElementById("booking-list");
+      var table = document.getElementById("booking-list");
       var bookingIds=[];
 
     for (var i = 0; i < json.sheet1.length; i++){
@@ -23,7 +23,7 @@ function GetBookings(){
         var gRemarks = json.sheet1[i].remarks;
         var buttonId = "delete" + gId;
 
-        let row = sheet1.insertRow(bookings.rows.length);
+        let row = table.insertRow(table.rows.length);
         row.insertCell(0).innerHTML = gId;  
         row.insertCell(1).innerHTML = gName;
         row.insertCell(2).innerHTML = gPhone;
