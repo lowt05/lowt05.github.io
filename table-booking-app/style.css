@@ -54,8 +54,8 @@ body {
    border-radius: 0;
  }
  
- .carousel.topPadding{
-     padding-top:30px;
+ .topPadding{
+     padding-top:50px;
  }
  
  .carousel-inner img {
