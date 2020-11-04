@@ -18,7 +18,7 @@ body {
  }
  
  .backGround-lightGrey {
-  background: lightslategray;
+  background: lightgrey;
  }
 
   .backgroundImg1{
@@ -40,8 +40,12 @@ body {
    padding:125px;
  }
  
- .container {
-   padding: 40px /*120px*/;
+ .container1 {
+   padding: 40px;
+ }
+
+ .container2 {
+   padding: 0px;
  }
 
  .topPadding{
