@@ -14,8 +14,9 @@
   
 <body data-spy="scroll" data-target=".navbar" data-offset="50" >
 
-<div>  
-  <!--NAVBAR SECTION-->  
+
+  <!-- <div> --> 
+  <!--NAVBAR SECTION-->    
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid backGround-grey">
       
@@ -38,93 +39,96 @@
       
     </div>
   </nav>
-  
 
-<hr/>  
-<div id="makeBooking" class="backGround-grey">      
-      <!-- Jumbotron Bar -->
+  <hr/>
+
+  <!-- MAKE BOOKING SECTION -->
+  <div id="makeBooking" class="backGround-grey">      
+    <!-- Jumbotron Bar -->
     <div class="container topPadding">     
       <div class="row">
         <div class="col">
-          <div class="jumbotron  backgroundImg imageCover">
+          <div class="jumbotron  backgroundImg1 imageCover">
             <h1 class="display-4">Make a Booking </h1>
             <p class="lead">Please fill in your details below</p>
           </div> <!-- Jumbotron element -->
         </div>  <!-- Jumbotron col -->  
       </div>  <!-- Jumbotron row --> 
-  </div>
-  
-      <!-- Booking form -->
-  <div class="container" >
-    <div class="row">
-        <div class="col">
-          <form>
-            
-            <div class="col-sm-6 form-group">
-              <label for="guestName">Name</label>
-              <input type="text" class="form-control" id="guestName" placeholder="First and Last Name">
-            </div>
-            
-            <div class="col-sm-6 form-group">
-              <label for="guestPhone">Phone Number</label>
-              <input type="text" class="form-control" id="guestPhone" placeholder="012-3456789 or 03-4567890">
-            </div>
-            
-            <div class="col-sm-6 form-group">
-              <label for="guestEmail">Email</label>
-              <input type="text" class="form-control" id="guestEmail" placeholder="example@example.com">
-            </div>
-            
-            <div class="col-sm-6 form-group">
-              <label for="visitDate">Date of Visit</label>
-              <input type="text" class="form-control" id="visitDate" placeholder="dd/mm/yy">
-            </div>
-            
-            <div class="col-sm-6 form-group">
-              <label for="guestPax">Number of Guests / Pax</label>
-              <select class="form-control" id="guestPax">
-                <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-                <option>6</option>
-                <option>7</option>
-                <option>8</option>
-                <option>9</option>
-                <option>10</option>                  
-              </select>
-            </div>
-
-            <div class="col-sm-6 form-group">
-              <label for="whichSession">Lunch / Dinner</label>
-              <select class="form-control" id="whichSession">
-                <option>Lunch</option>
-                <option>Dinner</option>
-
-              </select>
-            </div>
-            
-            <div class="col-sm-6 form-group">
-              <label for="guestRemarks">Additional Remarks</label>
-              <textarea class="form-control" id="guestRemarks" rows="3" placeholder="Your remarks"></textarea>
-            </div>
-
-            <div class="col-md-12 form-group">
-          <!--    <button type="button" class="btn btnText pull-right" id="bookNow">Book Now</button> -->
-              <button class="btn pull-right btnColor1" id="bookNow">Book Now</button>
-            </div>  
-
-          </form>           
-        </div> <!-- Booking form col -->
-    </div> <!-- Booking form row -->
+    </div>
     
-  </div>  
+    <!-- Booking form -->
+    <div class="container" >
+      <div class="row">
+          <div class="col">
+            <form>
+              
+              <div class="col-sm-6 form-group">
+                <label for="guestName">Name</label>
+                <input type="text" class="form-control" id="guestName" placeholder="First and Last Name">
+              </div>
+              
+              <div class="col-sm-6 form-group">
+                <label for="guestPhone">Phone Number</label>
+                <input type="text" class="form-control" id="guestPhone" placeholder="012-3456789 or 03-4567890">
+              </div>
+              
+              <div class="col-sm-6 form-group">
+                <label for="guestEmail">Email</label>
+                <input type="text" class="form-control" id="guestEmail" placeholder="example@example.com">
+              </div>
+              
+              <div class="col-sm-6 form-group">
+                <label for="visitDate">Date of Visit</label>
+                <input type="text" class="form-control" id="visitDate" placeholder="dd/mm/yy">
+              </div>
+              
+              <div class="col-sm-6 form-group">
+                <label for="guestPax">Number of Guests / Pax</label>
+                <select class="form-control" id="guestPax">
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                  <option>8</option>
+                  <option>9</option>
+                  <option>10</option>                  
+                </select>
+              </div>
 
-  </div>    
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<!--    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script> -->
+              <div class="col-sm-6 form-group">
+                <label for="whichSession">Lunch / Dinner</label>
+                <select class="form-control" id="whichSession">
+                  <option>Lunch</option>
+                  <option>Dinner</option>
+
+                </select>
+              </div>
+              
+              <div class="col-sm-6 form-group">
+                <label for="guestRemarks">Additional Remarks</label>
+                <textarea class="form-control" id="guestRemarks" rows="3" placeholder="Your remarks"></textarea>
+              </div>
+
+              <div class="col-md-12 form-group">
+            <!--    <button type="button" class="btn btnText pull-right" id="bookNow">Book Now</button> -->
+                <button class="btn pull-right btnColor1" id="bookNow">Book Now</button>
+              </div>  
+
+            </form>           
+          </div> <!-- Booking form col -->
+      </div> <!-- Booking form row -->
+    </div>  
+
+  <!-- </div> -->   
+
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  
   </div>
+
   </body>
 </html>
