@@ -18,11 +18,12 @@ body {
  }
  
  
- .backgroundImg{
+ .backgroundImg1{
    background-image: url('https://images.unsplash.com/photo-1578922538685-0155e12557c0?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ');
-   
- /*url:('https://images.unsplash.com/photo-1530176611600-d05a6387d07c?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ'*/  
- 
+ }
+
+ .backgroundImg2{
+   background-image: url('https://images.unsplash.com/photo-1530176611600-d05a6387d07c?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ');
  }
  
  .imageCover{
@@ -127,7 +128,7 @@ body {
  
  .btnColor1 {
    background-color: dimgrey;
-   color: #212121;
+   color: #fff;
  }
  
  
