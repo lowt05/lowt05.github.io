@@ -17,8 +17,11 @@ body {
    color: #F1F8E9;
  }
  
- 
- .backgroundImg1{
+ .backGround-lightGrey {
+  background: lightslategray;
+ }
+
+  .backgroundImg1{
    background-image: url('https://images.unsplash.com/photo-1578922538685-0155e12557c0?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ');
  }
 
@@ -59,10 +62,9 @@ body {
    border-radius: 0;
  }
 
-
  .carousel-inner img {
   /* width: 100%; */
-   width: 100%;
+   width: auto;
    max-height: 600px;
    margin: auto;
  }
@@ -71,7 +73,7 @@ body {
    color: #fff;
  }
  
- @media (max-width:600px max-height:400px) {
+ @media (max-width:600px) {
    .carousel-caption {
      display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
    }
