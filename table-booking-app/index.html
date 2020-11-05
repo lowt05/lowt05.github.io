@@ -28,22 +28,22 @@
       
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#myCarousel">HOME</a></li>
+          <li><a href="#intro">HOME</a></li>
           <li><a href="#aboutUs">ABOUT</a></li>
-          <li><a href="#menu">MENU</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="">MENU<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#menu">Top of Menu</a></li>
+              <li><a href="#soups">Soups</a></li>
+              <li><a href="#salads">Salads</a></li>
+              <li><a href="#mains">Mains</a></li> 
+              <li><a href="#desserts">Desserts</a></li>
+              <li><a href="#refreshments">Refreshments</a></li>
+            </ul>
+          </li>
           <li><a href="#contact">CONTACT</a></li>
           <li><a href="book.html">MAKE A BOOKING</a></li>
           <li><a href="list.html">LIST BOOKINGS</a></li>
-
-          <!-- <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">MORE
-            <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Merchandise</a></li>
-              <li><a href="#">Extras</a></li>
-              <li><a href="#">Media</a></li> 
-            </ul>
-          </li> -->
 
         </ul>
       </div>
@@ -51,14 +51,14 @@
   </nav>
   
   <!-- INTRO SECTION -->  
-  <div id="myCarousel" class="carousel slide backGround-grey topPadding" data-ride="carousel">
+  <div id="intro" class="carousel slide backGround-grey topPadding" data-ride="carousel">
     <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
-      <li data-target="#myCarousel" data-slide-to="4"></li>
-      <li data-target="#myCarousel" data-slide-to="5"></li>
+      <li data-target="#intro" data-slide-to="0" class="active"></li>
+      <li data-target="#intro" data-slide-to="1"></li>
+      <li data-target="#intro" data-slide-to="2"></li>
+      <li data-target="#intro" data-slide-to="3"></li>
+      <li data-target="#intro" data-slide-to="4"></li>
+      <li data-target="#intro" data-slide-to="5"></li>
 
     </ol>
 
@@ -133,42 +133,63 @@
     <p><em>Welcome !</em></p><br>
     <p>We have been serving your international favourites since 2012 from our restaurant in Kuala Lumpur. Situated in The Life Centre, Jalan Sultan Ismail, our dedicated team has been creating dishes that are at the forefront of Kuala Lumpur's foodie's and Instagrammer's minds. We warmly welcome you to come and savour your favourite dishes from our dedicated chefs. Come for lunch, dinner or just coffee and desserts!</p>
     <br><br>
-    <div class="row">
-      <div class="col-sm-4">
-        <p><strong>Chef Ridzwan</strong></p><br>
-        <a href="#chef1" data-toggle="collapse">
-        <img src="https://images.unsplash.com/photo-1595273670150-bd0c3c392e46?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ" width="175" height="125" alt="Pic of chef1" class="zoom">
-        </a>
-      <div id="chef1" class="collapse">
-        <br><p>Experience: Kuala Lumpur, Sydney, London, Venice</p>
-        <p>Passions: Electric Guitar, Outdoors, Mountain-biking</p>
-        <p>with us since 2012</p>
-      </div> 
-    </div>
     
+  
+    <div class="row">   
+      
+      <div class="col-sm-4">
+        <div class="boxInCol">
+          <div class="boxInBoxInCol">
+            <p><strong>Chef Ridzwan</strong></p>
+            <a href="#chef1" data-toggle="collapse" title="about">
+            <img src="https://images.unsplash.com/photo-1595273670150-bd0c3c392e46?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ" width="175" height="125" alt="Pic of chef1" class="zoom">
+            <br><br>
+            <span class="glyphicon glyphicon-chevron-down"></span> 
+            </a>
+              <div id="chef1" class="collapse">
+                <br><h4>Australian-Italian mains and soups</h4>
+                <p><em>Passions: Electric Guitar, Outdoors, Mountain-biking</em></p>
+                <p>with us since 2012</p>
+              </div> 
+            </div>
+          </div>
+      </div>    
+
       <div class="col-sm-4" >
-        <p><strong>Chef Yumi</strong></p><br>
-        <a href="#chef2" data-toggle="collapse">
-        <img src="https://images.unsplash.com/photo-1577930740770-486fcbb36d69?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ" width="175" height="125" alt="Pic of chef2" class="zoom">
-        </a>
-        <div id="chef2" class="collapse">
-          <br><p>Experience: Osaka, Bangkok, Amsterdam, Bonn</p>
-          <p>Passions: Batik printing, Water colour painting, Cats</p>
-          <p>with us since 2015</p>
+        <div class="boxInCol">
+          <div class="boxInBoxInCol">
+            <p><strong>Chef Yumi</strong></p>
+            <a href="#chef2" data-toggle="collapse"  title="about">
+            <img src="https://images.unsplash.com/photo-1577930740770-486fcbb36d69?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ" width="175" height="125" alt="Pic of chef2" class="zoom">
+            <br><br>
+            <span class="glyphicon glyphicon-chevron-down"></span> 
+            </a>
+              <div id="chef2" class="collapse">
+                <br><h4>Asian-European fusion specialiaties</h4>
+                <p><em>Passions: Batik printing, Water colour painting, Cats</em></p>
+                <p>with us since 2015</p>
+              </div>
+          </div>
         </div>
       </div>
     
       <div class="col-sm-4">
-        <p><strong>Chef Marco</strong></p><br>
-        <a href="#chef3" data-toggle="collapse">
-        <img src="https://images.unsplash.com/photo-1562775897-0e19642acd57?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ" width="175" height="125"  alt="Pic of chef3" class="zoom">
-        </a>
-        <div id="chef3" class="collapse">
-          <br><p>Experience: Lisbon, New York, Brussels, Tokyo, Perth, </p>
-          <p>Passions: Chocolate, Clarinet, Coffee</p>
-          <p>with us since 2018</p>
-        </div>   
-      </div> 
+        <div class="boxInCol">
+          <div class="boxInBoxInCol">
+            <p><strong>Chef Marco</strong></p>
+            <a href="#chef3" data-toggle="collapse"  title="about">
+            <img src="https://images.unsplash.com/photo-1562775897-0e19642acd57?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ" width="175" height="125"  alt="Pic of chef3" class="zoom">
+            <br><br>
+            <span class="glyphicon glyphicon-chevron-down"></span> 
+            </a>
+              <div id="chef3" class="collapse">
+                <br><h4>Desserts and speciality coffee   </h4>
+                <p><em>Passions: Chocolate, Clarinet, Coffee</em></p>
+                <p>with us since 2018</p>
+              </div>   
+            </div> 
+          </div>
+        </div>
       
     </div>
 
@@ -176,11 +197,13 @@
   
   <!-- MENU SECTION -->    
   <div id="menu" class="padContainer backGround-black container text-center">
-
+        <br><br>
         <p><strong>THE VERANDAH</strong></p><br>
         <h1>MENU</h1>    
-        <br><br><hr/><br>
+        <br>
     
+    <div id="soups">
+        <br><hr/><br>
         <h2>SOUPS</h2><br>
         <h3>Bisque</h3>
         <p><em>A luscious and creamy tomato and crustacean flavoured soup<br>RM 15</em></p><br>
@@ -189,9 +212,11 @@
         <p><em>A comforting soup, of sun-ripened tomatoes and fresh herbs<br>RM 13</em></p><br>
     
         <h3>French Onion</h3>
-        <p><em>A perfect comfort-food dinner, served with a side of bread for dipping and topped with a decadent layer of cheese<br>RM 12</em></p><br>
+        <p><em>A perfect comfort-food dinner, served with a side of bread for dipping and topped with a decadent layer of cheese<br>RM 12</em></p>
+    </div>
     
-        <hr/><br>  
+    <div id="salads"
+        <br><br><hr/><br>  
         <h2>SALADS</h2><br>
         <h3>Aucklander </h3>
         <p><em>Rocket Leaves, sliced Tuna, Walnuts, with a Crushed Olive and Capers Dressing<br>RM 18</em></p><br>
@@ -200,10 +225,12 @@
         <p><em>Celery, Apple, Walnuts in a Rich Creamy Dressing<br>RM 16</em></p><br>
     
         <h3>Greek</h3>
-        <p><em>Vine Ripened Tomatoes, Feta Cheese and Basil with a light Dressing<br>RM 16</em></p><br>
+        <p><em>Vine Ripened Tomatoes, Feta Cheese and Basil with a light Dressing<br>RM 16</em></p>
+    </div>
     
-        <hr/><br>  
-        <h2>THE MAINS</h2><br>
+    <div id="mains">
+        <br><hr/><br>  
+        <h2>MAINS</h2><br>
         <h3>Milano Spaghetti and Meatballs</h3>
         <p><em>Succulent spaghetti and beef (or chicken if you prefer) meatballs, finished in a rich tomato and herb sauce, inspired by a time-trusted recipe from Milan<br>RM 22</em></p><br>
 
@@ -211,9 +238,11 @@
         <p><em>The Classic Fish and Chips, with a Sydney-style tartare sauce and summer vegetables<br>RM 24</em></p><br>
     
         <h3>Jeju Jiggae</h3>
-        <p><em>The classic Kimchi Jiggae stew, southern style, with mature kimchi, chicken, tofu, with a steaming bowl of rice<br>RM 16</em></p><br>
-    
-        <hr/><br>  
+        <p><em>The classic Kimchi Jiggae stew, southern style, with mature kimchi, chicken, tofu, with a steaming bowl of rice<br>RM 16</em></p>
+  </div>
+  
+  <div id="desserts">
+        <br><br><hr/><br>  
         <h2>DESSERTS</h2><br>
         <h3>Lisbon Chocolate Mousse</h3>
         <p><em>A rich and satisfying White and Dark Chocolate Mousse<br>RM 13</em></p><br>
@@ -222,21 +251,24 @@
         <p><em>Shaved Ice, Malaysian Style, all the works with rich coconut milk, brown sugar syrup, creamed corn, jelly and cendol<br>RM 12</em></p><br>
     
         <h3>Amsterdam Apple Pie</h3>
-        <p><em>A generous serving of Apple Pie, with vanilla ice cream and freshly whipped cream<br>RM 15</em></p><br>
-    
-        <hr/><br>  
+        <p><em>A generous serving of Apple Pie, with vanilla ice cream and freshly whipped cream<br>RM 15</em></p>
+  </div>
+  
+  <div id="refreshments">   
+        <br><br><hr/><br>  
         <h2>REFRESHMENTS</h2><br>
         <h3>Cappucino </h3>
         <p><em>Cappucino with our own Roasted Arabica Beans<br>RM 11</em></p><br>
 
         <h3>Cafe Latte</h3>
-        <p><em>Freshly brewed coffee in New Zealand milk<br>RM 13</em></p><br>
+        <p><em>Freshly brewed Arabica coffee with New Zealand milk<br>RM 13</em></p><br>
     
         <h3>Earl Grey Tea</h3>
         <p><em>Lemon-scented English Tea<br>RM 9</em></p><br>
     
         <h3>Ice Lemon Tea</h3>
-        <p><em>South African Lemons with English Breakfast Tea in ince<br>RM 11</em></p><br>
+        <p><em>South African Lemons with English Breakfast Tea with a hint of mint in ice<br>RM 11</em></p><br>
+    </div>
     
     <hr/><br><br>
     <p><strong>THE VERANDAH</strong></p>
@@ -279,9 +311,15 @@
     </div>
   </div>  
 
-  <!-- MAKE A BOOKING SECTION -->  
-
-  <!-- CHECK BOOKINGS SECTION -->
+  <!-- FOOTER -->  
+  <footer class="text-center backGround-grey">
+    <a class="up-arrow" href="#intro" data-toggle="tooltip" title="TOP of Page">
+      <br>
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </a><br><br>
+    <p>A Project DEEP Web Development Course deliverable by Low Tze Yan - lowt05@yahoo.com - November 2020 <a href="" data-toggle="" title=""></a></p>
+    <br>
+  </footer>
 
 </body>
 </html>
