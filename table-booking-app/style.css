@@ -2,10 +2,6 @@ body{
   font-family: Arial, Helvetica, sans-serif;
  } 
 
-p{
- font-size:14;
-}
-
 .backGround-black {
  background: #2d2d30;
  color: #bdbdbd;
@@ -117,6 +113,23 @@ textarea.form-control {
 /* Remove border color from the collapsible button */
 .navbar-default .navbar-toggle {
  border-color: transparent;
+}
+
+
+/* Dropdown */
+.open .dropdown-toggle {
+color: #fff ;
+background-color: #555 !important;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+color: #000 !important;
+}
+
+/* On hover, the dropdown links will turn grey */
+.dropdown-menu li a:hover {
+background-color: #424242 !important;
 }
 
 /* zoom a picture */
