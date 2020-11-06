@@ -21,8 +21,8 @@ function BookNow(guestName, guestPhone, guestEmail, visitDate, guestPax, whichSe
   .then((response) => response.json())
   .then(json => {
     // Do something with object
-    console.log(json.bookingsList);
-     alert(json.bookingsList.name + " sucessfully added!");
+    console.log(json.BookingsList);
+     alert(json.BookingsList.name + " sucessfully added!");
   });
 }
 
