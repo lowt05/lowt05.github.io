@@ -2,14 +2,6 @@ body{
   font-family: Arial, Helvetica, sans-serif;
  } 
 
-p.smallText{
-  font-size:10;
-}
-
-p.fineText{
-  font-size:8;
-} 
-
 .backGround-black {
  background: #2d2d30;
  color: #bdbdbd;
