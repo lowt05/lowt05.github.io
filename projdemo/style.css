@@ -31,8 +31,11 @@ background: #F5F5F5;
  position: relative;
  }    
 
-div.padContainer{
- padding:15%;
+ div.padContainer{
+  padding-top: 5%;
+  padding-right: 15%;
+  padding-bottom: 5%;
+  padding-left: 15%;
 }
 
 .container{
