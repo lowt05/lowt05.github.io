@@ -15,15 +15,15 @@ function GetBookings(){
         var gName = json.bookingsList[i].name;
         var gPhone = json.bookingsList[i].phone; 
         var gEmail = json.bookingsList[i].email;
-        var gId = json.bookingsList[i].id;
+        var gId = json.bookingsList[i].id - 1;
         var gDate = json.bookingsList[i].date;
         var gPax = json.bookingsList[i].pax;
         var gSession = json.bookingsList[i].session;
         var gRemarks = json.bookingsList[i].remarks;
-        var buttonId = "delete" + (gId-1);
+        var buttonId = "delete" + gId;
 
         let row = table.insertRow(table.rows.length);
-        row.insertCell(0).innerHTML = (gId-1);  
+        row.insertCell(0).innerHTML = gId;  
         row.insertCell(1).innerHTML = gName;
         row.insertCell(2).innerHTML = gPhone;
         row.insertCell(3).innerHTML = gEmail;
