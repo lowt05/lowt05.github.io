@@ -1,4 +1,4 @@
-//List.js for table-booking-app project
+//List.js for table-booking-app project - Nov2020
 
 window.addEventListener("load",function(){
     GetBookings();
