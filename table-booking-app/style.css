@@ -2,11 +2,11 @@ body{
   font-family: Arial, Helvetica, sans-serif;
  } 
 
- .smallText{
+p.smallText{
   font-size:10;
 }
 
- .fineText{
+p.fineText{
   font-size:8;
 } 
 
