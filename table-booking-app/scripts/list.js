@@ -1,3 +1,5 @@
+//List.js for table-booking-app project
+
 window.addEventListener("load",function(){
     GetBookings();
 });
