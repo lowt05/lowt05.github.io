@@ -20,10 +20,10 @@ function GetBookings(){
         var gPax = json.bookingsList[i].pax;
         var gSession = json.bookingsList[i].session;
         var gRemarks = json.bookingsList[i].remarks;
-        var buttonId = "delete" + gId;
+        var buttonId = "delete" + (gId-1);
 
         let row = table.insertRow(table.rows.length);
-        row.insertCell(0).innerHTML = gId;  
+        row.insertCell(0).innerHTML = (gId-1);  
         row.insertCell(1).innerHTML = gName;
         row.insertCell(2).innerHTML = gPhone;
         row.insertCell(3).innerHTML = gEmail;
