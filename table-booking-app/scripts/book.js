@@ -34,9 +34,9 @@ window.addEventListener("load",function(){
     let date = document.getElementById("visitDate").value;
     let pax = document.getElementById("guestPax").value;
     let session = document.getElementById("whichSession").value;
-    let remark = document.getElementById("guestRemarks").value;
+    let remarks = document.getElementById("guestRemarks").value;
 
-    BookNow(name, phone, email, date, pax, session, remark);
+    BookNow(name, phone, email, date, pax, session, remarks);
 
 });
 });
