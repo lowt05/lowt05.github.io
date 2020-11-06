@@ -1,7 +1,7 @@
 function BookNow(guestName, guestPhone, guestEmail, visitDate, guestPax, whichSession, guestRemarks){
-  let url = 'https://api.sheety.co/99528d9511632b06c1b7c8b56fb9f308/bookingApIsheet/sheet1';
+  let url = 'https://api.sheety.co/4c2114a86a7798b75775ccafab0605e4/verandahBookingsList/bookingsList';
   let body = {
-    sheet1: {
+    bookingsList: {
       name: guestName,
       phone: guestPhone,
       email: guestEmail,
@@ -21,8 +21,8 @@ function BookNow(guestName, guestPhone, guestEmail, visitDate, guestPax, whichSe
   .then((response) => response.json())
   .then(json => {
     // Do something with object
-    console.log(json.sheet1);
-     alert(json.sheet1.name + " sucessfully added!");
+    console.log(json.bookingsList);
+     alert(json.bookingsList.name + " sucessfully added!");
   });
 }
 
